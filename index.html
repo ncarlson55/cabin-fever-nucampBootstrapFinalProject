@@ -6,45 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Cabin Fever</title>
+    <!-- Font Awesome Script -->
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <title>Cabin Fever: Texas Hill Country</title>
+    <style>
+      #section-hero {
+        background-image: url('img/river-bluff-cabins.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100vh;
+      }
+    </style>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navScrollSpy">
     <!-- Header/Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"> <img src="" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar bg-danger navbar-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <i class="fas fa-home" aria-hidden="true"></i> Cabin Fever
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Cities
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Austin</a>
-                <a class="dropdown-item" href="#">Fredericksburg</a>
-                <a class="dropdown-item" href="#">Leakey</a>
-              </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="navScrollspy">
+            <li class="nav-item">
+              <a class="nav-link active" href="#section-hero">To the Top</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">FAQs</a>
+              <a class="nav-link" href="#section-description">Description</a>
             </li>
-            <li>
-               <a class="btn btn-primary ml-3"">Book Your Stay</a> 
+            <li class="nav-item">
+              <a class="nav-link" href="#section-trailer">Trailer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-showcase">Showcase</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-reviews">Reviews</a>
             </li>
           </ul>
-          <!-- <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form> -->
         </div>
-      </nav>
-    <!-- Jumbotron -->
+      </div>
+    </nav>
+    <!-- Main Section 1 -->
+    <section id="section-hero" class="text-center text-white d-flex justify-content-center align-items-center py-5">
+      <div class="container">
+        <h1 class="display-1 text-white text-uppercase mt-5">Cabin Fever</h1>
+        <p class="display-4">Lorem, ipsum dolor.</p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eum.</p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur.</p>
+        <!-- If we want to add download app buttons in jumbotro -->
+        <!-- <p><strong>Download now on:</strong></p>
+        <a href="#0" class="btn bt-lg btn-primary mb-3 mb-sm-0 mr-sm-3">
+          <i class="fab fa-app-store-ios" aria-hidden="true"></i> App Store
+        </a>
+        <a href="#0" class="btn bt-lg btn-primary">
+          <i class="fab fa-google-play" aria-hidden="true"></i> Google Play
+        </a> -->
+      </div>
+    </section>
+    <!-- About Us -->
+    <div class="container">
+      <section id="section-description" class="mt-5">
+        <h2 class="display-4 text-center">What is Cabin Fever?</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum autem iste animi sequi iure, repellat labore provident modi! Labore, a minus distinctio dolore, quidem, aliquid nostrum sequi dolorem ducimus beatae placeat nam? Iusto laudantium amet ex pariatur ipsa, accusamus beatae facere maiores quis fugiat possimus praesentium ut quo ipsam aliquid! Ratione sed, quo minus amet nemo officiis atque! Earum animi magnam at numquam voluptatum rerum, doloribus quae minus ad id sunt quod recusandae tempora suscipit laudantium mollitia voluptatibus! Incidunt beatae magnam praesentium omnis? Obcaecati, ea inventore? Incidunt odit voluptatum reprehenderit! Molestiae eos doloribus voluptates, dolore fuga doloremque sequi numquam excepturi repellendus officiis magnam quos quam! Quo debitis animi rerum odit. Exercitationem fugiat dignissimos, veniam in quia labore autem nisi, sit provident error inventore velit dolor eius ex illum iusto nemo molestiae voluptatum veritatis doloremque, quis ipsa quae? Repellendus earum ipsa harum, dolorem beatae corporis maxime, reprehenderit eos sint quia, veritatis ducimus distinctio delectus nisi autem. Molestias quaerat magni fugiat aspernatur totam ad doloremque autem quas unde aperiam quibusdam nostrum ipsam nulla nemo facere, blanditiis ex? Qui, commodi? Non ex voluptatibus placeat saepe! Magnam eos iure expedita quisquam voluptates minima non praesentium voluptatem eaque distinctio dolorum quae vitae excepturi, quidem a. Pariatur quis eos a soluta laboriosam omnis animi libero voluptate, architecto quo quibusdam perspiciatis reiciendis, magni nam. Iure fuga assumenda dolor reprehenderit beatae unde quaerat deleniti sed libero earum quam corrupti facere ea quibusdam adipisci, consequuntur commodi nulla! Vitae asperiores doloremque impedit cum autem eius, repudiandae ex quaerat officia nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nemo eaque aperiam eos a commodi temporibus, quasi sunt, neque culpa consequatur nostrum voluptatum quo, accusamus molestiae distinctio dolorem provident fuga rerum inventore ratione error. Ut quis voluptates quasi odit asperiores neque, omnis voluptatum! Deleniti id odio quasi qui, voluptatem, harum laudantium exercitationem fuga voluptatibus mollitia maxime nisi. Eos, maxime esse commodi cum nobis nostrum in harum amet vero unde sunt asperiores ad enim fugiat dolores adipisci. Veritatis perferendis rem nesciunt delectus nihil laboriosam alias debitis? Ab sunt laudantium sit itaque, obcaecati fuga, officia molestiae quas vel asperiores blanditiis sequi architecto magni natus, eos neque? Saepe expedita autem ex officia laborum non aliquid quo consequatur dolorum tempora atque nihil animi inventore numquam facilis totam, tenetur cupiditate a deleniti officiis illum iusto accusantium maiores mollitia. Quam esse dicta consequatur sit dignissimos quaerat totam, sed iste cupiditate, cumque sunt molestiae a voluptate placeat!</p>
+      </section>
+    </div>
     <!-- Reservation Form -->
     <!-- Hero Box 1: carousel of destinations spot, contains click a tags to other pages  -->
     <!-- Hero Box 2: cabin rental cards, opens modules for pricing, availability, and pictures of cabin -->
