@@ -44,9 +44,6 @@
               <a class="nav-link" href="#section-showcase">Showcase</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-features">Features</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#section-pricing">Pricing</a>
             </li>
             <li class="nav-item">
@@ -63,14 +60,9 @@
         <p class="display-4">Lorem, ipsum dolor.</p>
         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eum.</p>
         <p class="lead">Lorem ipsum dolor sit amet consectetur.</p>
-        <!-- If we want to add download app buttons in jumbotro -->
-        <!-- <p><strong>Download now on:</strong></p>
-        <a href="#0" class="btn bt-lg btn-primary mb-3 mb-sm-0 mr-sm-3">
-          <i class="fab fa-app-store-ios" aria-hidden="true"></i> App Store
+        <a href="#0" class="btn bt-lg btn-danger mb-3 mb-sm-0">
+          <i class="fas fa-calendar-check" aria-hidden="true"></i> Book Your Stay
         </a>
-        <a href="#0" class="btn bt-lg btn-primary">
-          <i class="fab fa-google-play" aria-hidden="true"></i> Google Play
-        </a> -->
       </div>
     </section>
     <!-- About Us -->
@@ -83,19 +75,19 @@
       <!-- Video Trailer for Hill Country Promo -->
       <section id="section-trailer" class="mt-5">
         <h2 class="display-4 text-center">Welcome to the Hill Country</h2>
-        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, corrupti?</p>
+        <p class="lead text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, corrupti?</p>
       </section>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0QPDiAyug1M" frameborder="0"></iframe>
       </div>
 
     </div>
-    <!-- Reservation Form -->
+    <!-- Reservation Form Modal -->
 
     <!-- Carousel of destinations spot, contains click a tags to other pages  -->
     <section id="section-showcase" class="mt-5">
       <h2 class="display-4 text-center">Favorite Hill Country Towns!</h2>
-      <p class="text-center">Different sizes for different folks, same Texas Country Charm. Come check out Austin, Fredericksburg, and Leakey!</p>
+      <p class="lead text-center">Different sizes for different folks, same Texas Country Charm. Come check out Austin, Fredericksburg, and Leakey!</p>
       <div id="carouselCityShowcase" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselCityShowcase" data-slide-to="0" class="active"></li>
@@ -105,25 +97,25 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <img class="d-block w-100" src="img/megan-markham-2ni0fhQU5kk-unsplash.jpg" alt="Barker Springs Austin Texas slide1">
+            <img class="d-block w-100" src="img/megan-markham-2ni0fhQU5kk-unsplash.jpg" alt="Barker Springs Austin Texas">
             <div class="carousel-caption">
-              <h3 class="display-4">Austin, Texas</h3>
+              <h3 class="display-4">Austin</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus repellendus at adipisci accusamus? Tempore nisi aliquam, ducimus quia totam in.</p>
           </div>
           
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/Main-Street-Fredericksburg2C-TX-2000.jpeg" alt="Slide 2">
+            <img class="d-block w-100" src="img/Main-Street-Fredericksburg2C-TX-2000.jpeg" alt="Abella Bar Fredericksburg Texas">
             <div class="carousel-caption">
-              <h3 class="display-4">Fredericksburg, Texas</h3>
+              <h3 class="display-4">Fredericksburg</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus repellendus at adipisci accusamus? Tempore nisi aliquam, ducimus quia totam in.</p>
             </div>
           </div>
           
           <div class="carousel-item">
-            <img class="d-block w-100" src="" alt="Slide 3">
+            <img class="d-block w-100" src="img/Garner-State-Park.jpeg" alt="Garner State Park Rio Frio Texas">
             <div class="carousel-caption">
-              <h3 class="display-4">Leakey, Texas</h3>
+              <h3 class="display-4">Leakey</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus repellendus at adipisci accusamus? Tempore nisi aliquam, ducimus quia totam in.</p>
             </div>
           </div>
@@ -142,8 +134,98 @@
     
 
     <!-- Hero Box 2: cabin rental cards, opens modules for pricing, availability, and pictures of cabin -->
-
+   <section id="section-pricing" class="mt-5">
+     <h2 class="display-4 text-center">Want a Good Deal?</h2>
+     <p class="lead text-center">Check out each city's best deal on a cabin rental!</p>
+     <div class="row">
+       <!-- Card 1 -->
+       <div class="col-12 col-md-4 mb-4">
+         <div class="card card-outline-success">
+           <div class="card-header bg-success text-white text-center">
+             <h2>City 1</h2>
+             <h4>Time & Price</h4>
+           </div>
+           <div class="card-body">
+             <p class="card-text pl-2">Quick Description of Property and Location</p>
+             <img class="img-fluid img-thumbnail" src="img/Garner-State-Park.jpeg" alt="">
+           </div>
+           <div class="card-footer text-center">
+             <a href="#0" class="btn btn-success btn-lg">Click For More Info</a>
+           </div>
+         </div>
+       </div>
+       <!-- Card 2 -->
+       <div class="col-12 col-md-4 mb-4">
+        <div class="card card-outline-success">
+          <div class="card-header bg-primary text-white text-center">
+            <h2>City 2</h2>
+            <h4>Time & Price</h4>
+          </div>
+          <div class="card-body">
+            <p class="card-text pl-2">Quick Description of Property and Location</p>
+            <img class="img-fluid img-thumbnail" src="img/Garner-State-Park.jpeg" alt="">
+          </div>
+          <div class="card-footer text-center">
+            <a href="#0" class="btn btn-primary btn-lg">Click For More Info</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card card-outline-success">
+          <div class="card-header bg-danger text-white text-center">
+            <h2>City 3</h2>
+            <h4>Time & Price</h4>
+          </div>
+          <div class="card-body">
+            <p class="card-text pl-2">Quick Description of Property and Location</p>
+            <img class="img-fluid img-thumbnail" src="img/Garner-State-Park.jpeg" alt="">
+          </div>
+          <div class="card-footer text-center">
+            <a href="#0" class="btn btn-danger btn-lg">Click For More Info</a>
+          </div>
+        </div>
+      </div>
+     </div>
+   </section> 
     <!-- Hero Box 3: Reviews container -->
+    <section id="section-reviews" class="mt-5">
+      <h2 class="display-4 text-center">Reviews</h2>
+      <div class="row mb-3">
+        <div class="col-12 col-md-6 col-xl-3 gx-5 gy-3">
+          <figure>
+            <blockquote class="blockquote">
+              <p><i class="fas fa-fw fa-quote-left text-secondary" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt non vel animi magni in nisi tempore deleniti dolores neque voluptatem rem accusantium fugit, ipsum, commodi nobis praesentium deserunt, qui corporis illo! Veritatis, repudiandae excepturi culpa facere iusto magnam vitae praesentium a hic maiores rerum eaque at ut tempore aspernatur eius! <i class="fas fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
+            </blockquote>
+            <figcaption class="blockquote-footer">FirstName LastName <time datetime="2021-04-18T12:00">(April 18 2021)</time></figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 gx-5 gy-3">
+          <figure>
+            <blockquote class="blockquote">
+              <p><i class="fas fa-fw fa-quote-left text-secondary" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt non vel animi magni in nisi tempore deleniti dolores neque voluptatem rem accusantium fugit, ipsum, commodi nobis praesentium deserunt, qui corporis illo! Veritatis, repudiandae excepturi culpa facere iusto magnam vitae praesentium a hic maiores rerum eaque at ut tempore aspernatur eius! <i class="fas fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
+            </blockquote>
+            <figcaption class="blockquote-footer">FirstName LastName <time datetime="2021-04-18T12:00">(April 18 2021)</time></figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 gx-5 gy-3">
+          <figure>
+            <blockquote class="blockquote">
+              <p><i class="fas fa-fw fa-quote-left text-secondary" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt non vel animi magni in nisi tempore deleniti dolores neque voluptatem rem accusantium fugit, ipsum, commodi nobis praesentium deserunt, qui corporis illo! Veritatis, repudiandae excepturi culpa facere iusto magnam vitae praesentium a hic maiores rerum eaque at ut tempore aspernatur eius! <i class="fas fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
+            </blockquote>
+            <figcaption class="blockquote-footer">FirstName LastName <time datetime="2021-04-18T12:00">(April 18 2021)</time></figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 gx-5 gy-3">
+          <figure>
+            <blockquote class="blockquote">
+              <p><i class="fas fa-fw fa-quote-left text-secondary" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt non vel animi magni in nisi tempore deleniti dolores neque voluptatem rem accusantium fugit, ipsum, commodi nobis praesentium deserunt, qui corporis illo! Veritatis, repudiandae excepturi culpa facere iusto magnam vitae praesentium a hic maiores rerum eaque at ut tempore aspernatur eius! <i class="fas fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
+            </blockquote>
+            <figcaption class="blockquote-footer">FirstName LastName <time datetime="2021-04-18T12:00">(April 18 2021)</time></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer container social media *plan this out -->
 
