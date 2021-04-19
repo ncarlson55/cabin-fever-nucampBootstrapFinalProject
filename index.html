@@ -192,7 +192,7 @@
     <section id="section-reviews" class="mt-5">
       <h2 class="display-4 text-center">Reviews</h2>
       <div class="row mb-3">
-        <div class="col-12 col-md-6 col-xl-3 gx-5 gy-3">
+        <div class="col-12 col-md-6 col-lg-3 gx-5 gy-3">
           <figure>
             <blockquote class="blockquote">
               <p><i class="fas fa-fw fa-quote-left text-secondary" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt non vel animi magni in nisi tempore deleniti dolores neque voluptatem rem accusantium fugit, ipsum, commodi nobis praesentium deserunt, qui corporis illo! Veritatis, repudiandae excepturi culpa facere iusto magnam vitae praesentium a hic maiores rerum eaque at ut tempore aspernatur eius! <i class="fas fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
@@ -200,7 +200,7 @@
             <figcaption class="blockquote-footer">FirstName LastName <time datetime="2021-04-18T12:00">(April 18 2021)</time></figcaption>
           </figure>
         </div>
-        <div class="col-12 col-md-6 col-xl-3 gx-5 gy-3">
+        <div class="col-12 col-md-6 col-lg-3 gx-5 gy-3">
           <figure>
             <blockquote class="blockquote">
               <p><i class="fas fa-fw fa-quote-left text-secondary" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt non vel animi magni in nisi tempore deleniti dolores neque voluptatem rem accusantium fugit, ipsum, commodi nobis praesentium deserunt, qui corporis illo! Veritatis, repudiandae excepturi culpa facere iusto magnam vitae praesentium a hic maiores rerum eaque at ut tempore aspernatur eius! <i class="fas fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
@@ -208,7 +208,7 @@
             <figcaption class="blockquote-footer">FirstName LastName <time datetime="2021-04-18T12:00">(April 18 2021)</time></figcaption>
           </figure>
         </div>
-        <div class="col-12 col-md-6 col-xl-3 gx-5 gy-3">
+        <div class="col-12 col-md-6 col-lg-3 gx-5 gy-3 d-none d-lg-block">
           <figure>
             <blockquote class="blockquote">
               <p><i class="fas fa-fw fa-quote-left text-secondary" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt non vel animi magni in nisi tempore deleniti dolores neque voluptatem rem accusantium fugit, ipsum, commodi nobis praesentium deserunt, qui corporis illo! Veritatis, repudiandae excepturi culpa facere iusto magnam vitae praesentium a hic maiores rerum eaque at ut tempore aspernatur eius! <i class="fas fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
@@ -216,7 +216,7 @@
             <figcaption class="blockquote-footer">FirstName LastName <time datetime="2021-04-18T12:00">(April 18 2021)</time></figcaption>
           </figure>
         </div>
-        <div class="col-12 col-md-6 col-xl-3 gx-5 gy-3">
+        <div class="col-12 col-md-6 col-lg-3 gx-5 gy-3 d-none d-lg-block">
           <figure>
             <blockquote class="blockquote">
               <p><i class="fas fa-fw fa-quote-left text-secondary" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt non vel animi magni in nisi tempore deleniti dolores neque voluptatem rem accusantium fugit, ipsum, commodi nobis praesentium deserunt, qui corporis illo! Veritatis, repudiandae excepturi culpa facere iusto magnam vitae praesentium a hic maiores rerum eaque at ut tempore aspernatur eius! <i class="fas fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
@@ -226,9 +226,42 @@
         </div>
       </div>
     </section>
+    <!-- Sign Up for Blog and Deals -->
+    <section id="section-newsletter" class="bg-secondary py-5">
+      <div class="container">
+        <form class="text-white">
+          <h2 class="display-5 text-center">Looking for Hidden Gems in Texas?</h2>
+          <p class="lead text-center">Sign Up to receive weekly emails about ongoing deals on cabin rentals and blog posts about the Texas Hill Country!</p>
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="mb-3">
+                <label for="input-name" class="sr-only">Your name:</label>
+                <input type="text" class="form-control" placeholder="Full Name" id="input-name">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="mb-3">
+                <label for="input-email" class="sr-only">Your email:</label>
+                <input type="email" class="form-control" placeholder="Email Address" id="input-email">
+              </div>
+            </div>
+          </div>
+          <!-- Terms and Conditions checkbox -->
+          <div class="form-check mb-2">
+            <input type="checkbox" class="form-check-input" id="input-terms" values="terms">
+            <label for="input-terms" class="form-check-label">I have read and accept the <a href="#0" data-toggle="modal" data-target="termsModal">terms and conditions</a>.</label>
+          </div>
+          <div class="d-flex justify-content-between">
+            <small class="form-text text-white w-75">You can unsubscribe from the mailing list at anytime</small>
+            <button type="submit" class="btn btn-dark">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
 
     <!-- Footer container social media *plan this out -->
-
+    <section id="sectop"></section>
 
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
