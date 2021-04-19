@@ -249,24 +249,118 @@
           <!-- Terms and Conditions checkbox -->
           <div class="form-check mb-2">
             <input type="checkbox" class="form-check-input" id="input-terms" values="terms">
-            <label for="input-terms" class="form-check-label">I have read and accept the <a href="#0" data-toggle="modal" data-target="termsModal">terms and conditions</a>.</label>
+            <label for="input-terms" class="form-check-label">I have read and accept the <a href="#0" data-toggle="modal" data-target="#termsModal">terms and conditions</a>.</label>
           </div>
           <div class="d-flex justify-content-between">
             <small class="form-text text-white w-75">You can unsubscribe from the mailing list at anytime</small>
             <button type="submit" class="btn btn-dark">Sign Up</button>
           </div>
         </form>
+        <!-- Terms and Conditions Modal  -->
+        <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Terms and Conditions</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label ="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quia iusto assumenda aliquid earum laboriosam blanditiis beatae nihil tempore animi. Omnis veniam incidunt maxime illum corporis? Rem odit a laudantium repudiandae architecto. Aperiam, repellat possimus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quia iusto assumenda aliquid earum laboriosam blanditiis beatae nihil tempore animi. Omnis veniam incidunt maxime illum corporis? Rem odit a laudantium repudiandae architecto. Aperiam, repellat possimus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quia iusto assumenda aliquid earum laboriosam blanditiis beatae nihil tempore animi. Omnis veniam incidunt maxime illum corporis? Rem odit a laudantium repudiandae architecto. Aperiam, repellat possimus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quia iusto assumenda aliquid earum laboriosam blanditiis beatae nihil tempore animi. Omnis veniam incidunt maxime illum corporis? Rem odit a laudantium repudiandae architecto. Aperiam, repellat possimus.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
 
     <!-- Footer container social media *plan this out -->
-    <section id="sectop"></section>
+    <footer class="bg-light">
+      <div class="container py-3 py-sm-5">
+        <div class="row">
+          <!-- Quick Links -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <h6>Quick Links</h6>
+            <ul class="list-unstyled">
+              <li><a href="#0">Home</a></li>
+              <li><a href="#0">What's New</a></li>
+              <li><a href="#0">Support</a></li>
+              <li><a href="#0">Contact Us</a></li>
+              <li><a href="#0">Cancel Subscription</a></li>
+            </ul>
+          </div>
+          <!-- Information -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <h6>Information</h6>
+            <ul class="list-unstyled">
+              <li><a href="#0">About Us</a></li>
+              <li><a href="#0">Careers</a></li>
+              <li><a href="#0">Press Info</a></li>
+              <li><a href="#0">Hosting</a></li>
+              <li><a href="#0">Disclaimers</a></li>
+            </ul>
+          </div>
+          <!-- Social Media -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <h6>Follow Us</h6>
+            <ul class="list-unstyled">
+              <li><a href="#0"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+              <li><a href="#0"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+              <li><a href="#0"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="#0"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+              <li><a href="#0"><i class="fab fa-fw fa-medium" aria-hidden="true"></i> Medium</a></li>
+            </ul>
+          </div>
+          <!-- Location-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <h6>Our Location:</h6>
+            <address>
+              <strong>Cabin Fever</strong><br>
+              2700 Aftonshire Way #B<br>
+              Austin, Texas(TX), 78748<br>
+              <i class="fas fa-fw fa-phone" aria-hidden="true"></i>
+              <span class="sr-only">Telephone:</span>
+              <a href="tel:+2813308004">(281)-330-8004</a><br>
+              <i class="fas fa-fw fa-inbox" aria-hidden="true"></i>
+              <span class="sr-only">Email:</span>
+              <a href="mailto:info@cabinfever.com">info@cabinfever.com</a>
+            </address>
+
+          </div>
+        </div>
+        <!-- Copyright info -->
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-9">
+            <ul class="list-inline">
+              <li class="list-inline-item">&copy; 2021 Cabin Fever, Inc.</li>
+              <li class="list-inline-item">All Rights Reserved</li>
+              <li class="list-inline-item"><a href="#0" data-toggle="modal" data-target="#termsModal">Terms of use and privacy policy</a>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Adding Smooth Scroll to Site -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <!-- Init Smooth Scroll -->
+    <script>
+      var scroll = new SmoothScroll('a[href*="#section-"]', {
+        offset: 56
+      })
+    </script>
 </body>
 </html>
