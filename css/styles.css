@@ -34,7 +34,7 @@ a, h6, address, .list-inline-item {
     color: var(--secondary-light);
 }
 
-p, h4, h6, address {
+p, h4 {
     font-family: 'Halant', sans-serif;
 }
 
